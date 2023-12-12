@@ -2,16 +2,16 @@
  
 ## Overview
 
-This project goes through the Production and Inventory Analysis of the Microsoft AdventureWorks Database. Adventure Works is a fictional bicycle manufacturing company, this database contains standard transactions data from an Enterprise Resource Planning System. It contains data from the following scenarios of the company: Human Resources, Product Management, Manufacturing, Purchasing, Inventory, Sales, and Admin. 
-This analysis focuses on the Manufacturing and Inventory part of the data. Microsoft Power BI has been used to create an interactive dashboard while pulling data from SQL Server.
+This project involves analyzing the Production and Inventory sections of the Microsoft AdventureWorks Database, which represents a fictitious bicycle manufacturing company. The database comprises typical transactional 
+data gathered from an Enterprise Resource Planning System. It encompasses various facets of the company, including Human Resources, Product Management, Manufacturing, Purchasing, Inventory, Sales, and Admin. The analysis 
+primarily concentrates on the Manufacturing and Inventory aspects of this dataset. To visualize and analyze this data, Microsoft Power BI was utilized to develop an interactive dashboard, sourcing information directly 
+from SQL Server.
+## Model
 
-## Data Source
 
 [Data Source](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
 
-## Data Model
-
-Defining an effective data structure in a dashboard is important, incorporating a star schema model gives an efficient design and makes the data refresh faster. The image below shows the tables used in the process:-
+Below we have defined the data model in star structure view:
 
 <img width="1024" alt="DataModel" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/DataModel.png">
 
