@@ -15,7 +15,7 @@ Defining an effective data structure in a dashboard is important, incorporating 
 
 <img width="1024" alt="DataModel" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/DataModel.png">
 
-###Tables made:
+### Tables made:
 
 Production Location: Holds assembly data, specifying the parts assigned to manufacture each product along with their assembly location categories.
 
