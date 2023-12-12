@@ -15,23 +15,25 @@ Defining an effective data structure in a dashboard is important, incorporating 
 
 <img width="1024" alt="DataModel" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/DataModel.png">
 
-### Tables used in the model: -
+###Tables made:
 
-- Production Location - Has Production assembly data, i.e. Parts used to manufacture each product are defined here with an assembly location category
-- Production Product - Data related to products, their physical details, price, etc.
-- Production ProductCategory - Products and their defined categories
-- Production ProductSubcategory - Products and their subcategories
-- Production ProductInventory - Inventory data of the produced products
-- Production ScrapReason - Waste Data related to manufacturing
-- Production WorkOrder - Production transactions and related data
-- Production WorkOrderRouting - Production work order scheduling data and details
-- Sales SalesOrderDetail - Transactional Sales Data
+Production Location: Holds assembly data, specifying the parts assigned to manufacture each product along with their assembly location categories.
 
-## Built With
+Production Product: Contains information regarding products, encompassing their physical attributes, pricing, and related details.
 
-•Python
-•Power BI
-•SQL Server
+Production ProductCategory: Organizes products into distinct categories, providing a structured classification system.
+
+Production ProductSubcategory: Further categorizes products into subgroups, refining the classification of products.
+
+Production ProductInventory: Manages and maintains inventory data specifically for the produced products.
+
+Production ScrapReason: Stores data concerning waste generated during the manufacturing process, detailing reasons for waste occurrence.
+
+Production WorkOrder: Records production transactions and associated data, tracking the progression of production activities.
+
+Production WorkOrderRouting: Contains scheduling details and data related to the routing of production work orders, facilitating the organization of production processes.
+
+Sales SalesOrderDetail: Captures transactional sales data, providing detailed information about sales transactions.
 
 ## Analysis
 
