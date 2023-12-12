@@ -1,4 +1,4 @@
-# Data Analysis of Bicycle Manufacturing Company Using Python, SQL and Power BI
+# Data Analysis Using Python, SQL and Power BI
  
 ## Overview
 
@@ -17,7 +17,7 @@ Defining an effective data structure in a dashboard is important, incorporating 
 
 ### Tables used in the model: -
 
-- Production Location - Has Production assembly data, 1.e. Parts used to manufacture each product are defined here with an assembly location category
+- Production Location - Has Production assembly data, i.e. Parts used to manufacture each product are defined here with an assembly location category
 - Production Product - Data related to products, their physical details, price, etc.
 - Production ProductCategory - Products and their defined categories
 - Production ProductSubcategory - Products and their subcategories
@@ -29,9 +29,9 @@ Defining an effective data structure in a dashboard is important, incorporating 
 
 ## Built With
 
-•[Python](https://www.python.org/)
-•[Power BI](https://powerbi.microsoft.com/en-us/)
-•[SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+•Python
+•Power BI
+•SQL Server
 
 ## Analysis
 
