@@ -70,21 +70,23 @@ The Manufacturing Overview section provides insights into the company's manufact
 
 ### Category Analysis
 
-After looking at the overview of the manufacturing department, one can navigate to the Product Category Page for a more detailed analysis. Which will help identify specific issues in the manufacturing system. 
-
-This section consists of 4 charts that show an in-depth analysis of the Production components and help determine specific issues.
+Upon reviewing the manufacturing department's overview, users can access the Product Category Page for a detailed analysis, aiding in the identification of specific manufacturing system issues. This section comprises four charts offering a comprehensive analysis of production components, assisting in pinpointing specific issues within the system.
 
 <img width="1024" alt="Production Category Analysis" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Production%20Category%20Analysis.png">
 
 **Pareto Charts**
 
-A Pareto chart is a Bar graph, the length of the chart represents frequency or cost, the longest bars are arranged on the left and the shortest to the right which amplifies the importance of the category with the highest bar. A line overlaps over the bar graph showing the percent contribution of the specific bar chart towards the total and the line accumulates the percent showing how many categories are important and consume most of the process. There are 2 Pareto Charts on this page, first is for the components required to manufacture a bike showing where most of the production is occupied and the other one is for the finished bike products showing categories of bikes produced.
+The Pareto chart, a type of Bar graph, visually represents frequency or cost, with longer bars indicating higher significance, arranged from left (highest) to right (lowest). Overlapping a line on the bars displays the 
+percentage contribution of each category towards the total, accumulating to demonstrate the cumulative importance of categories in the process. There are two Pareto Charts on this page: one detailing components crucial 
+for bike manufacturing, highlighting areas with high production occupancy, and the other focusing on categories of finished bike products produced.
 
 <img width="1024" alt="Pareto Charts" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Pareto_Charts.jpg">
 
 **Waste Cost - Product Matrix Visual**
 
-The Matrix visual shows the reason where exactly the waste is costing money to the company and due to which reasons. The first column provides the reason for waste, while the other two columns are divided into two categories Bikes (Actual bikes wasted in production) and Components (Components of bikes wasted in production). The Cost is conditionally formatted showing which portion is costing more and the reason for it. There are subtotals on rows and columns and grand total for total waste money.
+The Matrix visual pinpoints the specific areas causing financial loss due to waste within the company and identifies the reasons behind it. The first column outlines the waste reasons, while the subsequent columns 
+categorize the waste into two sections: Bikes (actual bikes wasted during production) and Components (bike components wasted during production). Cost is formatted conditionally to highlight the higher cost portion and 
+its underlying causes. Subtotals are present for both rows and columns, with a grand total showcasing the overall monetary impact of waste.
 
 <img width="1024" alt="Waste Cost" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Waste_Cost_Matrix.jpg">
 
@@ -96,11 +98,8 @@ A simple bar chart showing how many Product categories are produced on time.
 
 ### Inventory Overview
 
-Another major component of the dashboard is the Inventory overview, although there is no data regarding the distribution supply chain in the database this analysis is done assuming the is one location.
-
-Main Page
-
-The overview includes 3 KPI's, 3 Filters to slice the data, and 2 charts.
+The Inventory overview section of the dashboard focuses on one location, despite lacking specific data on supply chain distribution within the database. It features three Key Performance Indicators (KPIs), three filters 
+for data segmentation, and two charts on the main page.
 
 <img width="1024" alt="Inventory data overview" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Inventory%20data%20overview.png">
 
@@ -110,11 +109,12 @@ The overview includes 3 KPI's, 3 Filters to slice the data, and 2 charts.
 
 **Area Charts**
 
-Area charts showing how much Inventory quantity and Inventory value does the company hold by the Assembly location category are shown in the area chart. This shows which part of the manufacturing is holding most of the money and if the company is making the right choices of investing in those parts. There is a button on top of the chart so the end-user can choose if he wants to view the quantity or value on the chart.
+Area charts display Inventory quantity and Inventory value categorized by Assembly location. These charts illustrate where the company invests its resources in manufacturing and indicate whether these investments align 
+with profitability. Users can toggle between viewing quantity or value using a button atop the chart.
 
 **Inventory Turnover Multiline chart**
 
-Comparing inventory turnover on different fiscal years can show important data. It can help show the trends in previous years of how the inventory has been used and can help plan the production process in a better way.
+Analyzing inventory turnover across various fiscal years offers valuable insights, revealing historical usage patterns and aiding in more strategic production planning based on past trends.
 
 <img width="1024" alt="Inventory Turnover Multiline chart" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Inventory_tunrover_chart.jpg">
 
