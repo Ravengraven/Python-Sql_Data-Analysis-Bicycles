@@ -37,9 +37,9 @@ Sales SalesOrderDetail: Captures transactional sales data, providing detailed in
 
 ## Analysis
 
-### Main Page
-
-This dashboard analyses manufacturing and inventory operations, the dashboard is made to have an app-like navigational interface. The main page includes leads to two areas namely Production Overview and Inventory Overview. Each then breakdown details and KPIs on their own page afterward.
+The dashboard is designed to scrutinize manufacturing and inventory functions, featuring an app-style navigational interface. Upon accessing the main page, users are presented with links to two primary sections: 
+Production Overview and Inventory Overview. Each section leads to dedicated pages that further delve into specific details and Key Performance Indicators (KPIs) related to production and inventory, providing a 
+comprehensive breakdown of insights for both aspects separately.
 
 <img width="1024" alt="Main Page" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Main%20Page.png">
 
@@ -47,9 +47,10 @@ This dashboard analyses manufacturing and inventory operations, the dashboard is
 
 <img width="1024" alt="Production Overview Page" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Production%20Overview%20Page.png">
 
-The dashboard is made according to the fiscal year terms, a custom date table was created using DAX, to automatically generate Fiscal year segregations. An assumption is made that the fiscal year starts on October 1st and ends on September 30th.  
 
-This page gives information about the manufacturing overview of the company, Measures were created in Power BI in order to have custom KPIs. All the charts and KPIs are described below: -
+On this dashboard, the fiscal year structure is followed, and a custom date table, generated through DAX, automates the segmentation of fiscal years. The assumption is that each fiscal year commences on October 1st and concludes on September 30th.
+
+The Manufacturing Overview section provides insights into the company's manufacturing operations. Custom measures were crafted in Power BI to generate specific Key Performance Indicators (KPIs). Below are descriptions of the charts and KPIs displayed:
 
 <img width="1024" alt="Production Overview KPI" src="https://raw.githubusercontent.com/ritik8801/Data-Analysis-of-Bicycle-Manufacturing-Company-Using-Python-SQL-and-PowerBI/main/Dashboard%20Screenshots%20and%20Features/Production%20Overview%20KPI.png">
 
